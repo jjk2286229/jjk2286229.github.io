@@ -14,9 +14,9 @@ $(function () {
 	gardenCtx.globalCompositeOperation = "lighter"; // 显示源图像 + 目标图像
 
 	$("#content").css("width", $loveHeart.width() + $("#code").width());
-	$("#content").css("height", Math.max($loveHeart.height(), $("#code").height()));
-	$("#content").css("margin-top", Math.max(($window.height() - $("#content").height()) / 2, 10)); // 垂直居中
-	$("#content").css("margin-left", Math.max(($window.width() - $("#content").width()) / 2, 10));  // 水平居中
+	$("#content").css("height", $loveHeart.height());
+	$("#content").css("margin-top", 100); // 垂直居中
+	$("#content").css("margin-left", 100);  // 水平居中
 
 	// renderLoop
 	setInterval(function () {
@@ -114,8 +114,8 @@ function showMessages() {
 
 function adjustWordsPosition() {
 	$('#words').css("position", "absolute");
-	$('#words').css("top", $("#garden").position().top + 195);
-	$('#words').css("left", $("#garden").position().left + 70);
+	$('#words').css("top", 300);
+	$('#words').css("left", 600);
 }
 
 function adjustCodePosition() {
