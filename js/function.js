@@ -15,8 +15,8 @@ $(function () {
 
 	$("#content").css("width", $loveHeart.width() + $("#code").width());
 	$("#content").css("height", $loveHeart.height());
-	$("#content").css("margin-top", 100); // 垂直居中
-	$("#content").css("margin-left", 100);  // 水平居中
+	$("#content").css("margin-top", 80); // 垂直居中
+	$("#content").css("margin-left", 80);  // 水平居中
 
 	// renderLoop
 	setInterval(function () {
